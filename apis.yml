@@ -1,8 +1,24 @@
 aid: nimbus-therapeutics
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/nimbus-therapeutics.png
 name: Nimbus Therapeutics
-description: 'Nimbus Therapeutics is a company surfaced as a portfolio company of gv and added to the
-  API Evangelist network as a stub for enrichment. Sector: life-sciences. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Nimbus Therapeutics is a Boston-based biotechnology company, founded in 2009, that designs
+  and develops small molecule medicines with exquisite selectivity across oncology, immunology, and
+  metabolic indications. Its approach integrates structure-based and computational drug design (including
+  cloud-based molecular simulation) with target selection, translational medicine, and clinical
+  development. Nimbus is a private, VC-backed drug-discovery company and does not publish a public
+  developer API, developer portal, or API documentation; this profile is maintained in the API
+  Evangelist network as a company record.'
 url: https://raw.githubusercontent.com/api-evangelist/nimbus-therapeutics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Life Sciences
+- Biotechnology
+- Pharmaceuticals
+- Drug Discovery
+- Oncology
+- Immunology
+- Computational Chemistry
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/nimbus-therapeutics-domain-security.yml
 - type: Website
-  url: https://nimbustx.com
+  url: https://www.nimbustx.com
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
